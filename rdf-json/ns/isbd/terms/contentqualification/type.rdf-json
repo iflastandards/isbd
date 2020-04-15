@@ -1,0 +1,533 @@
+{
+  "http://metadataregistry.org/uri/RegStatus/1001": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Published"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentqualification/type": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+      }
+    ], 
+    "http://purl.org/dc/elements/1.1/title": [
+      {
+        "type": "literal", 
+        "value": "ISBD Content Qualification of Type"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentqualification/type/T1001"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentqualification/type/T1002"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentqualification/type/T1003"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentqualification/type/T1001": {
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentqualification/type"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "картографски"
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "cartographic"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "cartographique"
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "地图型"
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "картографический"
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "cartografico"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Contenido que representa la totalidad o parte de la Tierra o de cualquier cuerpo celeste a cualquier escala."
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/1220"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentqualification/type"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "包括地图、地图册、球仪、地形模型等。"
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Include le carte geografiche, gli atlanti, i globi, i modelli in rilievo, etc."
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Включает в себя карты, атласы, глобусы, модели рельефа и т.п."
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "Uključuje geografske karte, atlase, globuse, reljefne modele i tako dalje."
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Ietver kartes, atlantus, globusus, reljefa modeļus, u.c."
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Incluye mapas, atlas, globos, modelos en relieve, etc."
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "Включва карти, атласи, глобуси, модели на релеф и др."
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Comprend cartes, atlas, globes, maquettes, etc."
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Includes maps, atlases, globes, relief models, etc."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Contenu représentant la totalité ou une partie de la Terre ou de tout corps céleste à une échelle quelconque."
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "Sadržaj koji predstavlja Zemlju u celini ili neki njen deo, ili bilo koje nebesko telo u bilo kojoj razmeri."
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content representing the whole or part of the Earth or any celestial body at any scale."
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Un contenuto che rappresenta l’intera Terra o parte di essa, o qualsiasi corpo celeste a qualunque scala."
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "Съдържание, което представя повърхността или част от повърхността на Земята или на друго небесно тяло в какъвто и да е мащаб."
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "用任何比例尺表示地球或任何天体的整体或部分的内容。"
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Saturs, kas atspoguļo Zemes virsmu vai virsmas daļu, vai citu debess ķermeni jebkurā mērogā."
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Содержание, отражающее поверхность или часть поверхности Земли или другого небесного тела в любом масштабе."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "cartográfico"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "cartográfica"
+      }, 
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "kartografski"
+      }, 
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "kartografska"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentqualification/type/T1003": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "表演型"
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "исполнительский"
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "изпълнителски"
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "eseguito"
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "performed"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentqualification/type"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/1222"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentqualification/type"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Includes recorded performances of music or movement, computer-generated music, etc."
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Incluye las grabaciones de interpretaciones de música o movimiento, música generada por ordenador, etc."
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Включает в себя записанное исполнение музыки или движения, компьютерную музыку и т. п."
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Ietver ierakstīto mūzikas vai kustības izpildījumu, ar datoru radītu mūziku, u.c."
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "包括录制的音乐或运动的表演、计算机生成的音乐等。"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Comprend les interprétations enregistrées de musique ou de mouvements, la musique générée par ordinateur, etc."
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "Включва записани изпълнения на музика или движение, компютърна музика и др."
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Include le esecuzioni registrate di musica o di movimento, la musica generata via computer, etc."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Un contenuto espresso in forma uditiva o visibile, in un dato tempo, e registrato in una risorsa."
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "以听觉或视觉形式表示、在指定时间并且录制于一种资源中的内容。"
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Saturs, izteikts dzirdamā vai redzamā formā noteiktā laikā un ierakstīts resursā. "
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Содержание, выраженное в видимой или слышимой форме в определенное время и записанное в ресурсе."
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content expressed in an audible or visible form, at a given time, and recorded in a resource."
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Contenu exprimé sous une forme audible ou visible, à un moment déterminé, et enregistré dans une ressource"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Contenido expresado en forma audible o visible, en un momento dado, y grabado en un recurso."
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "Съдържание, изразено в определен момент във форма, която може да се види или чуе и записано в ресурс."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "izvedbeni"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "interprété"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "interpretada"
+      }, 
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "izvedbena"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "interpretado"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "interprétée"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentqualification/type/T1002": {
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentqualification/type"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "notated"
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "знаковый"
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "нотиран"
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "记谱型"
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "notato"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/1221"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentqualification/type"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Contenido expresado a través de un sistema de notación con fines artísticos (por ejemplo, la música, la danza, la puesta en escena) destinado a percibirse visualmente."
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Contenu exprimé à des fins artistiques selon un système de notation (par exemple, musique, danse, mise en scène) et prévu pour être perçu visuellement."
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Содержание, выраженное через определенную систему знаков с художественными целями (ноты, обозначение танцевальных и сценических движений), предназначенное для зрительного восприятия."
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Saturs, izteikts ar nosacītu zīmju apzīmēšanas sistēmu mākslinieciskā nolūkā (piem., mūzika, deja, inscenējums), paredzēts vizuālai uztverei."
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "Съдържание, изразено чрез система за нотиране за художествени цели (напр. музика, танц и сценична постановка), предназначено за визуално възприемане."
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content expressed through a notational system for artistic purposes (e.g. music, dance, staging) intended to be perceived visually."
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "通过艺术（例如音乐、舞蹈、舞台）记谱系统来表示、用于视觉感知的内容。"
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Un contenuto espresso mediante un sistema di notazione, a scopi artistici p.e. la musica, la danza, la rappresentazione scenica), destinato a essere percepito visivamente."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "notirani"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "notée"
+      }, 
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "notirana"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "noté"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "notado"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "notada"
+      }
+    ]
+  }
+}
